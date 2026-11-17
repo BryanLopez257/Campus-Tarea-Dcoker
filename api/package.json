@@ -1,0 +1,17 @@
+{
+  "name": "campustareas-api",
+  "version": "1.0.0",
+  "description": "API de CampusTareas para las prácticas de Docker y Kubernetes",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "pg": "^8.16.0"
+  }
+}
